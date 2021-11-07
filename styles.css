@@ -1,0 +1,66 @@
+body{
+    font-family: lora;
+}
+
+header {
+    margin-bottom: 100px;
+}
+
+.logo-container{
+    background-image: url("./img/Backgroundheader.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+   
+}
+
+.menu  { 
+    background-color: #e63946;
+    padding: 4.5px;
+}
+
+.link { 
+    color: white;
+}
+
+.logo{
+   margin-left: 100px;
+}
+
+h1, h2 {
+    color: white    ;
+}
+
+.title-background{
+    background-color: #219ebc ;
+    padding: 0.5px;
+}
+
+h1 {
+    
+    font-size: 35px;
+    line-height: 84.69%;
+    text-align: center;
+}
+
+h2 {
+    
+    font-size: 20px;
+    line-height: 16.94%;
+}
+
+.item-list {
+    font-weight: bold;
+    display: inline-block;
+    width: 50px;
+}
+
+.footer {
+    background-color: #e63946;
+    color: white;
+    font-size: 20px;
+    line-height: 84.69%;
+    text-align: center;
+    padding: 0.08px;
+}
+
