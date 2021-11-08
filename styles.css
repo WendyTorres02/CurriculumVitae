@@ -1,3 +1,7 @@
+html, body {
+    height: 100%;
+}
+
 body{
     font-family: lora;
 }
@@ -51,8 +55,12 @@ h2 {
 
 .item-list {
     font-weight: bold;
-    display: inline-block;
-    width: 50px;
+    width: 100px;
+    float: left;
+}
+
+.content-list {
+    margin-left: 100px;
 }
 
 footer {
@@ -74,4 +82,10 @@ footer p {
 
 footer i { 
     color: white ;
+}
+
+.about-text {
+    text-align: justify;
+    line-height: 28px;
+    padding: 0 20px 0 20px;
 }
